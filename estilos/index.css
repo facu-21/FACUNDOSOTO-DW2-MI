@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', 'sans-serif';
+    
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+.titulo{
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.texto{
+    font-size: 20px;
+    text-align: center;
+    margin: 1vh 0;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    position:fixed;
+    z-index: 2;
+}
+
+.linksContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 3vh 0;
+}
+
+.link{
+    color: red;
+    transition: .3s;
+}
+
+.link:hover{
+    color: darkred;
+}
+
+header{
+    margin-top: 6vh;
+}
+
+#seccionPrincipalContainer{
+    width: 100%;
+    background-image: url(../imgs/patio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 86vh;
+}
+
+#seccionPrincipal{
+    background-color: rgba(0, 0, 0, 0.795);
+    backdrop-filter: blur(3px);
+    min-height: 87vh;
+    color: white;
+    display: flex;
+}
+
+#seccionPrincipalContenido{
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#botonPrincipal{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+#botonPrincipal:hover{
+    background-color: darkred;
+}
+
+#presentacion{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 3vh 0;
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#contexto{
+    width: 40%;
+}
+
+#textoContexto{
+    margin-top: 3vh;
+    padding-bottom: 5vh;
+}
+
+#mario{
+    width: 40%;
+}
+
+#fotoMario{
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 3vh;
+    transition: .3s;
+}
+
+#fotoMario:hover{
+    scale: 1.1;
+}
+
+
+#galeria{
+    margin: auto;
+}
+
+.item{
+    margin: 5vh auto;
+    width: 90%;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.imgGaleriaDiv{
+    width: 50%;
+    display: flex;
+    transition: .3s;
+}
+
+.imgGaleriaDiv:hover{
+    scale: 1.05;
+}
+
+.itemDesc{
+    width: 50%;
+    display: flex;
+}
+
+.itemTexto{
+    margin: auto;
+    padding-bottom: 1vh;
+    width: 80%;
+}
+
+.imgGaleria{
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+}
+
+#footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vh 0;
+}
+
+.footerColumna{
+    text-align: center;
+}
+
+.footerItemTitulo{
+    font-weight: 900;
+    margin-bottom: 3vh;
+    font-size: 25px;
+}
+
+.footerItem{
+    font-size: 20px;
+    margin: 1.5vh 0;
+}
